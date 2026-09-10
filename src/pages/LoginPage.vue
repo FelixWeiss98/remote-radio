@@ -2,11 +2,14 @@
   <div class="login-page">
     <div class="login-page-form">
       <h1>Login</h1>
+      <CoreInput label="Benutzer" placeholder="Passwort" />
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CoreInput from '@/components/forms/CoreInput.vue'
+</script>
 
 <style lang="scss" scoped>
 @use '../assets/css/abstracts' as *;
